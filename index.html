@@ -50,7 +50,6 @@
     </style>
 </head>
 <body class="bg-slate-950 min-h-screen">
-    <!-- Animated Background -->
     <div class="fixed inset-0 overflow-hidden pointer-events-none">
         <div class="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-float"></div>
         <div class="absolute top-40 right-10 w-72 h-72 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-float" style="animation-delay: 2s;"></div>
@@ -58,9 +57,7 @@
     </div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-4 py-8 md:py-16">
-        <!-- Hero Section with Bento Grid Layout -->
         <div class="grid grid-cols-1 md:grid-cols-12 gap-4 mb-8 animate-fadeIn">
-            <!-- Profile Card -->
             <div class="md:col-span-4 glassmorphism rounded-3xl p-8 text-center group hover:border-blue-500/50 transition-all duration-500">
                 <div class="relative inline-block mb-6">
                     <div class="w-40 h-40 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 p-1">
@@ -99,7 +96,6 @@
                 </div>
             </div>
 
-            <!-- Quick Info Cards -->
             <div class="md:col-span-8 grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div class="glassmorphism rounded-2xl p-6 hover:border-blue-500/50 transition-all duration-300">
                     <div class="text-blue-400 text-3xl mb-2">💻</div>
@@ -134,159 +130,7 @@
             </div>
         </div>
 
-        <!-- SWOT Analysis -->
         <div class="mb-8 animate-fadeIn" style="animation-delay: 0.2s;">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8 text-center">
-                <span class="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">Analisis SWOT</span>
-            </h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <!-- Strengths -->
-                <div class="group glassmorphism rounded-3xl p-8 hover:bg-slate-800/50 transition-all duration-500 relative overflow-hidden">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-emerald-500"></div>
-                    <div class="flex items-start gap-4 mb-6">
-                        <div class="w-16 h-16 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-2xl flex items-center justify-center shadow-lg border border-green-500/30 group-hover:scale-110 transition-transform duration-300">
-                            <span class="text-3xl">💪</span>
-                        </div>
-                        <div>
-                            <h3 class="text-2xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Strengths</h3>
-                            <p class="text-gray-400 text-sm mt-1">Kekuatan</p>
-                        </div>
-                    </div>
-                    <ul class="space-y-4">
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-green-500/20 transition-colors">
-                                <span class="text-green-400 text-xs">✓</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Menguasai dasar-dasar esensial pemrograman web seperti HTML, CSS, dan JavaScript, serta bahasa serbaguna Python.</span>
-                        </li>
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-green-500/20 transition-colors">
-                                <span class="text-green-400 text-xs">✓</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Memiliki pengalaman nyata dalam pengembangan aplikasi web, bukan hanya teori.</span>
-                        </li>
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-green-500/20 transition-colors">
-                                <span class="text-green-400 text-xs">✓</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Terbiasa dengan alur kerja profesional menggunakan tools seperti Trello, Notion, dan GitHub.</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Weaknesses -->
-                <div class="group glassmorphism rounded-3xl p-8 hover:bg-slate-800/50 transition-all duration-500 relative overflow-hidden">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-amber-500"></div>
-                    <div class="flex items-start gap-4 mb-6">
-                        <div class="w-16 h-16 bg-gradient-to-br from-yellow-500/20 to-amber-500/20 rounded-2xl flex items-center justify-center shadow-lg border border-yellow-500/30 group-hover:scale-110 transition-transform duration-300">
-                            <span class="text-3xl">⚠️</span>
-                        </div>
-                        <div>
-                            <h3 class="text-2xl font-bold bg-gradient-to-r from-yellow-400 to-amber-400 bg-clip-text text-transparent">Weaknesses</h3>
-                            <p class="text-gray-400 text-sm mt-1">Kelemahan</p>
-                        </div>
-                    </div>
-                    <ul class="space-y-4">
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-yellow-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-yellow-500/20 transition-colors">
-                                <span class="text-yellow-400 text-xs">!</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Belum memiliki keahlian mendalam pada framework modern spesifik seperti React.js atau Next.js.</span>
-                        </li>
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-yellow-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-yellow-500/20 transition-colors">
-                                <span class="text-yellow-400 text-xs">!</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Pengalaman masih pada proyek skala kecil, belum teruji pada sistem skala besar.</span>
-                        </li>
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-yellow-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-yellow-500/20 transition-colors">
-                                <span class="text-yellow-400 text-xs">!</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Fokus pada coding dan logika, keahlian UI/UX design mungkin belum terasah.</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Opportunities -->
-                <div class="group glassmorphism rounded-3xl p-8 hover:bg-slate-800/50 transition-all duration-500 relative overflow-hidden">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-cyan-500"></div>
-                    <div class="flex items-start gap-4 mb-6">
-                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-2xl flex items-center justify-center shadow-lg border border-blue-500/30 group-hover:scale-110 transition-transform duration-300">
-                            <span class="text-3xl">🎯</span>
-                        </div>
-                        <div>
-                            <h3 class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Opportunities</h3>
-                            <p class="text-gray-400 text-sm mt-1">Peluang</p>
-                        </div>
-                    </div>
-                    <ul class="space-y-4">
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-blue-500/20 transition-colors">
-                                <span class="text-blue-400 text-xs">→</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Industri teknologi terus membutuhkan talenta dengan keahlian dasar pengembangan web.</span>
-                        </li>
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-blue-500/20 transition-colors">
-                                <span class="text-blue-400 text-xs">→</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Peluang proyek lepas di platform seperti Upwork atau Fiverr sangat terbuka.</span>
-                        </li>
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-blue-500/20 transition-colors">
-                                <span class="text-blue-400 text-xs">→</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Python membuka pintu ke Data Science, Automasi, atau AI Engineering.</span>
-                        </li>
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-blue-500/20 transition-colors">
-                                <span class="text-blue-400 text-xs">→</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Banyak kursus online dan komunitas open-source untuk terus belajar.</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Threats -->
-                <div class="group glassmorphism rounded-3xl p-8 hover:bg-slate-800/50 transition-all duration-500 relative overflow-hidden">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-red-500 to-rose-500"></div>
-                    <div class="flex items-start gap-4 mb-6">
-                        <div class="w-16 h-16 bg-gradient-to-br from-red-500/20 to-rose-500/20 rounded-2xl flex items-center justify-center shadow-lg border border-red-500/30 group-hover:scale-110 transition-transform duration-300">
-                            <span class="text-3xl">⚡</span>
-                        </div>
-                        <div>
-                            <h3 class="text-2xl font-bold bg-gradient-to-r from-red-400 to-rose-400 bg-clip-text text-transparent">Threats</h3>
-                            <p class="text-gray-400 text-sm mt-1">Ancaman</p>
-                        </div>
-                    </div>
-                    <ul class="space-y-4">
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-red-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-red-500/20 transition-colors">
-                                <span class="text-red-400 text-xs">×</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Framework dan library baru terus bermunculan, keahlian dasar bisa tertinggal.</span>
-                        </li>
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-red-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-red-500/20 transition-colors">
-                                <span class="text-red-400 text-xs">×</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Persaingan untuk posisi junior sangat tinggi dengan banyak bootcamp graduate.</span>
-                        </li>
-                        <li class="flex gap-3 items-start group/item">
-                            <div class="w-6 h-6 rounded-lg bg-red-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-red-500/20 transition-colors">
-                                <span class="text-red-400 text-xs">×</span>
-                            </div>
-                            <span class="text-gray-300 leading-relaxed text-sm">Alat AI seperti GitHub Copilot meningkatkan ekspektasi perusahaan terhadap developer junior.</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Projects -->
-        <div class="animate-fadeIn" style="animation-delay: 0.4s;">
             <h2 class="text-3xl md:text-4xl font-bold text-white mb-8 text-center">
                 <span class="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">Portofolio Proyek</span>
             </h2>
@@ -354,13 +198,217 @@
             </div>
         </div>
 
-        <!-- Footer -->
+        <div class="mb-8 animate-fadeIn" style="animation-delay: 0.3s;">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8 text-center">
+                <span class="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">Rencana Akademis</span>
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="glassmorphism rounded-3xl p-8 hover:border-blue-500/50 transition-all duration-300">
+                    <div class="flex items-start gap-4 mb-4">
+                        <div class="w-16 h-16 bg-gradient-to-br from-slate-700 to-slate-800 rounded-2xl flex items-center justify-center shadow-lg border border-slate-600">
+                            <span class="text-3xl">👨‍💻</span>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-white">Kerja Praktik</h3>
+                            <p class="text-gray-400 text-sm mt-1">Rencana Judul</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">Perancangan dan Pembuatan Icon Set Kustom untuk Kebutuhan Navigasi Menu pada Aplikasi Mobile.</p>
+                </div>
+                <div class="glassmorphism rounded-3xl p-8 hover:border-blue-500/50 transition-all duration-300">
+                    <div class="flex items-start gap-4 mb-4">
+                        <div class="w-16 h-16 bg-gradient-to-br from-slate-700 to-slate-800 rounded-2xl flex items-center justify-center shadow-lg border border-slate-600">
+                            <span class="text-3xl">🎓</span>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-white">Skripsi</h3>
+                            <p class="text-gray-400 text-sm mt-1">Rencana Judul</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">Studi Komparatif Penggunaan Light Mode vs. Dark Mode terhadap Keterbacaan Teks (Readability) dan Tingkat Kelelahan Mata Pengguna.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mb-8 animate-fadeIn" style="animation-delay: 0.5s;">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8 text-center">
+                <span class="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">Analisis SWOT</span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="group glassmorphism rounded-3xl p-8 hover:bg-slate-800/50 transition-all duration-500 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-emerald-500"></div>
+                    <div class="flex items-start gap-4 mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-2xl flex items-center justify-center shadow-lg border border-green-500/30 group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl">💪</span>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Strengths</h3>
+                            <p class="text-gray-400 text-sm mt-1">Kekuatan</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-green-500/20 transition-colors">
+                                <span class="text-green-400 text-xs">✓</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Menguasai dasar-dasar esensial pemrograman web seperti HTML, CSS, dan JavaScript, serta bahasa serbaguna Python.</span>
+                        </li>
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-green-500/20 transition-colors">
+                                <span class="text-green-400 text-xs">✓</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Memiliki pengalaman nyata dalam pengembangan aplikasi web, bukan hanya teori.</span>
+                        </li>
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-green-500/20 transition-colors">
+                                <span class="text-green-400 text-xs">✓</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Terbiasa dengan alur kerja profesional menggunakan tools seperti Trello, Notion, dan GitHub.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="group glassmorphism rounded-3xl p-8 hover:bg-slate-800/50 transition-all duration-500 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-amber-500"></div>
+                    <div class="flex items-start gap-4 mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-yellow-500/20 to-amber-500/20 rounded-2xl flex items-center justify-center shadow-lg border border-yellow-500/30 group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl">⚠️</span>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold bg-gradient-to-r from-yellow-400 to-amber-400 bg-clip-text text-transparent">Weaknesses</h3>
+                            <p class="text-gray-400 text-sm mt-1">Kelemahan</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-yellow-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-yellow-500/20 transition-colors">
+                                <span class="text-yellow-400 text-xs">!</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Belum memiliki keahlian mendalam pada framework modern spesifik seperti React.js atau Next.js.</span>
+                        </li>
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-yellow-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-yellow-500/20 transition-colors">
+                                <span class="text-yellow-400 text-xs">!</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Pengalaman masih pada proyek skala kecil, belum teruji pada sistem skala besar.</span>
+                        </li>
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-yellow-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-yellow-500/20 transition-colors">
+                                <span class="text-yellow-400 text-xs">!</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Fokus pada coding dan logika, keahlian UI/UX design mungkin belum terasah.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="group glassmorphism rounded-3xl p-8 hover:bg-slate-800/50 transition-all duration-500 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-cyan-500"></div>
+                    <div class="flex items-start gap-4 mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-2xl flex items-center justify-center shadow-lg border border-blue-500/30 group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl">🎯</span>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Opportunities</h3>
+                            <p class="text-gray-400 text-sm mt-1">Peluang</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-blue-500/20 transition-colors">
+                                <span class="text-blue-400 text-xs">→</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Industri teknologi terus membutuhkan talenta dengan keahlian dasar pengembangan web.</span>
+                        </li>
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-blue-500/20 transition-colors">
+                                <span class="text-blue-400 text-xs">→</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Peluang proyek lepas di platform seperti Upwork atau Fiverr sangat terbuka.</span>
+                        </li>
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-blue-500/20 transition-colors">
+                                <span class="text-blue-400 text-xs">→</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Python membuka pintu ke Data Science, Automasi, atau AI Engineering.</span>
+                        </li>
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-blue-500/20 transition-colors">
+                                <span class="text-blue-400 text-xs">→</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Banyak kursus online dan komunitas open-source untuk terus belajar.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="group glassmorphism rounded-3xl p-8 hover:bg-slate-800/50 transition-all duration-500 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-red-500 to-rose-500"></div>
+                    <div class="flex items-start gap-4 mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-red-500/20 to-rose-500/20 rounded-2xl flex items-center justify-center shadow-lg border border-red-500/30 group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl">⚡</span>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold bg-gradient-to-r from-red-400 to-rose-400 bg-clip-text text-transparent">Threats</h3>
+                            <p class="text-gray-400 text-sm mt-1">Ancaman</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-red-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-red-500/20 transition-colors">
+                                <span class="text-red-400 text-xs">×</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Framework dan library baru terus bermunculan, keahlian dasar bisa tertinggal.</span>
+                        </li>
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-red-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-red-500/20 transition-colors">
+                                <span class="text-red-400 text-xs">×</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Persaingan untuk posisi junior sangat tinggi dengan banyak bootcamp graduate.</span>
+                        </li>
+                        <li class="flex gap-3 items-start group/item">
+                            <div class="w-6 h-6 rounded-lg bg-red-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-red-500/20 transition-colors">
+                                <span class="text-red-400 text-xs">×</span>
+                            </div>
+                            <span class="text-gray-300 leading-relaxed text-sm">Alat AI seperti GitHub Copilot meningkatkan ekspektasi perusahaan terhadap developer junior.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-8 animate-fadeIn" style="animation-delay: 0.4s;">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8 text-center">
+                <span class="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">Analisis Porter's Five Forces</span>
+            </h2>
+            <div class="space-y-4">
+                <div class="glassmorphism rounded-2xl p-6 hover:border-blue-500/50 transition-all duration-300">
+                    <h4 class="font-bold text-blue-400">Threat of New Entrants (Ancaman Pendatang Baru)</h4>
+                    <p class="text-gray-300 mt-2 text-sm leading-relaxed">Hambatan untuk masuk ke industri ini sangat rendah. Seseorang hanya memerlukan laptop, koneksi internet, dan akses ke sumber belajar yang melimpah (YouTube, kursus online) untuk memulai. Modal yang dibutuhkan minimal.</p>
+                </div>
+                <div class="glassmorphism rounded-2xl p-6 hover:border-blue-500/50 transition-all duration-300">
+                    <h4 class="font-bold text-blue-400">Bargaining Power of Suppliers (Kekuatan Pemasok)</h4>
+                    <p class="text-gray-300 mt-2 text-sm leading-relaxed">Ini adalah satu-satunya kekuatan yang menguntungkan bagi developer. "Pemasok" kita adalah penyedia tools, framework, library, dan platform edukasi. Sebagian besar framework (React, Vue, Svelte) bersifat open-source (gratis), dan ada banyak sekali pilihan platform hosting (Vercel, Netlify, Firebase) dengan skema free tier yang sangat memadai.</p>
+                </div>
+                <div class="glassmorphism rounded-2xl p-6 hover:border-blue-500/50 transition-all duration-300">
+                    <h4 class="font-bold text-blue-400">Bargaining Power of Buyers (Kekuatan Pembeli)</h4>
+                    <p class="text-gray-300 mt-2 text-sm leading-relaxed">Klien atau perusahaan (pembeli jasa Anda) memiliki banyak pilihan developer. Mereka dapat dengan mudah membandingkan tarif di platform freelance atau portal kerja. Proyek dengan budget besar memberi mereka kekuatan tawar yang lebih tinggi.</p>
+                </div>
+                <div class="glassmorphism rounded-2xl p-6 hover:border-blue-500/50 transition-all duration-300">
+                    <h4 class="font-bold text-blue-400">Threat of Substitute Products (Ancaman Produk Pengganti)</h4>
+                    <p class="text-gray-300 mt-2 text-sm leading-relaxed">Kebutuhan untuk membuat website sederhana kini dapat digantikan oleh website builder (Wix, Squarespace) atau platform low-code/no-code (Webflow, Bubble). Selain itu, template siap pakai dan AI code generator juga menjadi alternatif yang valid untuk tugas-tugas sederhana.</p>
+                </div>
+                <div class="glassmorphism rounded-2xl p-6 hover:border-blue-500/50 transition-all duration-300">
+                    <h4 class="font-bold text-blue-400">Competitive Rivalry (Tingkat Persaingan)</h4>
+                    <p class="text-gray-300 mt-2 text-sm leading-relaxed">Persaingan antar developer, baik mahasiswa maupun profesional, sangat ketat. Untuk bersaing, sistem harus memiliki keunggulan seperti desain menarik, performa optimal, dan pengelolaan data yang lebih baik.</p>
+                </div>
+            </div>
+        </div>
+
         <div class="mt-12 text-center text-gray-500 text-sm">
             <p>© 2025 Muhammad Hafiz Assyifa. Built with Tailwind CSS.</p>
         </div>
     </div>
 
-    <!-- Modal -->
     <div id="projectModal" class="modal fixed inset-0 bg-black bg-opacity-80 hidden items-center justify-center z-50 p-4" onclick="closeModal(event)">
         <div class="modal-content glassmorphism rounded-3xl max-w-4xl w-full max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation()">
             <div class="relative">
@@ -395,8 +443,10 @@
         
         function closeModal(event) {
             const modal = document.getElementById('projectModal');
-            if (event && event.target !== modal) return;
+            // Allow closing by clicking the background, but not the content inside it.
+            if (event && event.target !== modal) return; 
             
+            // If called without event (from button or Esc key), close it.
             modal.classList.add('closing');
             setTimeout(() => {
                 modal.classList.remove('flex', 'closing');
@@ -407,9 +457,13 @@
         
         document.addEventListener('keydown', function(event) {
             if (event.key === 'Escape') {
-                closeModal();
+                // Check if modal is open before trying to close
+                if (document.getElementById('projectModal').classList.contains('flex')) {
+                    closeModal();
+                }
             }
         });
     </script>
 </body>
+
 </html>
